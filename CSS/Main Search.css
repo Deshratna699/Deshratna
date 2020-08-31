@@ -1,0 +1,177 @@
+.header {
+    display: flex;
+    justify-content: flex-end;
+    /* margin-bottom: 200px;  this is not good practice */
+}
+.header-elements{
+    padding: 10px;
+}
+/* Code written by rizwan correction */
+
+.google-search-bar-seaction{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-image {
+    align-self: center;
+    padding: 1rem;
+    padding-top: 180px;
+}
+
+.main-image img {
+    max-width:320px;
+    width: auto;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.searbox-wrapper{
+    display: flex;
+    align-self: center;
+    padding-bottom: 40px;
+}
+
+.search-box{
+    display: flex;
+    align-self: center;
+    width: 580px;
+    border-radius: 50px;
+    border: solid rgb(206, 206, 206) 1px;
+    padding:16px;
+}
+
+@media(max-width: 480px){
+    .search-box{
+        display: flex;
+        align-self: center;
+        width: 300px;
+        border-radius: 50px;
+        border: solid rgb(206, 206, 206) 1px;
+        padding:15px;
+    }
+}
+
+.search-box:hover{
+    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
+}
+
+
+.search-box-image{
+    max-width: 28px;
+    max-height: 18px;
+}
+
+
+
+input[type=text] {
+    border-style: none;
+    flex-grow: 1;
+    padding-left: 16px;
+}
+.buttons{
+    align-self: center;
+}
+
+input[type=submit]{
+    margin: 8px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 5px;
+    color: grey;
+}
+
+@media(max-width:480px){
+    input[type=submit]{
+        margin: 8px;
+        padding: 10px 15px 10px 15px;
+        font-size: 13px;
+        background-color: rgb(245, 245, 245);
+        border: none;
+        border-radius: 5px;
+        color: grey;
+    }
+}
+
+.lucky-button{
+    text-decoration: none;
+    margin: 8px;
+    padding: 10px 15px 10px 15px;
+    font-size: 15px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    border-radius: 5px;
+    color: grey;
+    font-family: MS Shell Dlg \32 ;
+    font-weight: 200;
+    
+    }
+
+    @media(max-width:480px){
+        .lucky-button{
+            text-decoration: none;
+            margin: 8px;
+            padding: 10px 15px 10px 15px;
+            font-size: 13px;
+            background-color: rgb(245, 245, 245);
+            border: none;
+            border-radius: 5px;
+            color: grey;
+            font-family: MS Shell Dlg \32 ;
+            font-weight: 200;
+            
+            }
+    }
+
+.lucky-button:hover{
+    border-radius: 5px;
+    background: rgb(243, 243, 243);
+    border-style: none;
+    color:rgb(56, 56, 56);
+    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
+
+}
+
+input[type=submit]:hover{
+
+    /* border: solid 0.1px rgb(86, 86, 86); */
+    border-radius: 5px;
+    background: rgb(243, 243, 243);
+    border-style: none;
+    color:rgb(56, 56, 56);
+    box-shadow: 1px 1px 1px 1px rgb(208, 208, 208);
+    
+}
+
+a {
+    font-weight: bolder;
+    font-size: larger;
+}
+
+/* .search {
+    max-width: 28px;
+    max-height: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px;
+    
+    
+} */
+/* .search-box{
+    display: flex;
+    justify-content: center;
+    border: solid rgb(206, 206, 206) 1px;
+    border-radius: 50px;
+    max-width: 600px;
+    max-height: 600px;
+    
+    margin: 0 auto 0 auto;
+    
+} */
